@@ -1,0 +1,19 @@
+// ********************************Statement: to take simple interest********************************
+//with rate being a decimal value
+
+#include <stdio.h>
+#include <stdlib.h>
+
+// simple interese formula is SI = PRT/100
+int main() 
+{
+    //p- principle amount, R- rate, T-Time
+	int P,T;
+	float R,SI;
+	printf("enter P,T,R:");
+	scanf( "%d %d %f", &P,&T,&R);
+	SI = (P*T*R)/100;
+	printf("SIMPLE INTEREST IS: %f", SI);
+
+return 0;
+}
